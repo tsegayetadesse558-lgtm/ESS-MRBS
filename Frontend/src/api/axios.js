@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_URL = 'https://ess-mrbs.onrender.com/api';
+// ✅ CORRECT URL (with -1)
+const API_URL = 'https://ess-mrbs-1.onrender.com/api';
 
 const axiosInstance = axios.create({
   baseURL: API_URL,
